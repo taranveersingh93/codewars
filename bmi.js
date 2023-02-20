@@ -22,4 +22,3 @@ function bmi(weight, height) {
     return "Obese";
   }
 }
-console.log(bmi(100,3));
