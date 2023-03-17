@@ -15,7 +15,7 @@ function shortcut (string) {
     var stringArray = string.split("");
     var outputArray = [];
     for (var i=0; i<stringArray.length; i++) {
-        if(stringArray[i]!=="a"||stringArray[i]!=="e"||stringArray[i]!=="i"||stringArray[i]!=="o"||stringArray[i]!=="u") {
+        if(stringArray[i] !== "a" && stringArray[i] !== "e" && stringArray[i] !== "i" && stringArray[i]!=="o" && stringArray[i]!=="u") {
             outputArray.push(stringArray[i]);
         }
     }
