@@ -31,3 +31,4 @@ function peopleWithAgeDrink(old) {
         return "drink whisky";
     }
   }
+  
